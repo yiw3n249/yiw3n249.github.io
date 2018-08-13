@@ -39,11 +39,6 @@ line-height: 1.6;
 }
 
 
-article{
-	text-align: center;
-}
-
-
 section{
 	background-color: #f3e98c;
 	border-spacing: 10px;
@@ -55,8 +50,9 @@ section{
 
 article{
 
-	width: 100%;
-	/*margin-left: 20px;*/
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
 	
 }
 
