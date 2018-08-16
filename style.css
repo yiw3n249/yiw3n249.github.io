@@ -45,7 +45,7 @@ section{
 	padding: 10px;
 	margin-bottom: 20px;
 	border:2px dashed violet;
-	/*margin-right: 30px;*/
+
 }
 
 article{
@@ -70,14 +70,66 @@ article{
 }
 
 
-
-.container{
+.gallery-item{
+	display: inline-block;
+	background-color: white;*/
 	text-align: center;
-	margin-bottom: 10px;
-	margin-top: 10px;
+	padding: 10px;
+	border:1px solid #dddddd;
+	border-radius: 8px;
+	margin: 10px;
+	vertical-align: top;
 
 }
 
+.gallery-item img{
+	max-width: 200px;
+}
+
+.gallery-item .caption{
+
+	display: none;
+
+}
+
+.caption{
+
+	background-color: white;
+	border:1px solid #dddddd;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+.lightbox{
+	position: fixed;
+	background-color: rgba(0,0,0,0);
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.lightbox-contents{
+	display: inline-block; 
+}
+
+.lightbox-close{
+	float: right;
+	background-color: white;
+	border:1px solid #dddddd;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+.lightbox img{
+	max-width: 80vw;
+	max-height: 80vh;
+}
+
+.hidden{
+	display: none;
+}
 
 
 footer{
@@ -87,6 +139,12 @@ footer{
 	margin-bottom: 10px;
 }
 
+.container{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
 
 
 
